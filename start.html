@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Number Guessing GAME</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body class="center">
+		<!-- user input -->
+		<div class="div1">
+			<h1>Guess Number</h1><br>
+			<abbr title="enter number between 0 to 9"><input autofocus="autofocus" placeholder="enter 0-9" class="input" type="text" id="userInput"></abbr>
+			<br><input class="button" type="button" onclick="startGame()" value="start">
+		</div>
+
+		<!-- Wrong message -->
+
+		<div class="wrongResult" id="wrongResult" style="display: block;">
+			<h1 id="errorMessage"><br><br><br>please enter a number between<br>0-9</h1>
+		</div>
+
+		<!-- game result -->
+
+		<div class="divStart" id="divStart" style="display: none;">
+			<br><br><br>
+			<div class="divleft">
+				<h2>Server Guess</h2><br>
+				<h2 class="Circle" id="server"></h2>
+			</div>
+
+			<div class="divright">
+				<h2>User Guess</h2><br>
+				<h2 class="Circle" id="user"></h2>
+			</div>
+
+		</div>
+		<script src="process.js"></script>
+	
+	</body>
+</html>
