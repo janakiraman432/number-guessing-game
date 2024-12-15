@@ -7,7 +7,7 @@
     text-align: center;
     background-color: white;
     color: rgb(0, 0, 0);
-    width: fit-content;
+    width: 50%;
 }
 .wrongResult {
     text-align: center;
@@ -18,11 +18,11 @@
 }
 .divleft {
     float: left;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 .divright {
     float: right;
-    margin-right: 15%;
+    margin-right: 25%;
 }
 .Circle {
     display: flex;
