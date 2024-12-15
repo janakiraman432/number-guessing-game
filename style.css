@@ -1,13 +1,12 @@
 .center {
-    background-color:rgb(197, 20, 182);
+    background-color:black;
     text-align: center;
 }
 .div1 {
     margin: auto;
     text-align: center;
-    background-color: yellow;
+    background-color: white;
     color: rgb(0, 0, 0);
-    border: 2px dashed rgb(0, 0, 0);
 }
 .wrongResult {
     text-align: center;
@@ -61,4 +60,8 @@
     margin: 5px;
     background-color: rgb(255, 255, 255);
     border: 2px dotted;
+}
+body{
+    margin:auto;
+    padding:0;
 }
